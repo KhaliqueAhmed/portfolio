@@ -54,7 +54,7 @@ const Footer = () => {
             </a>
             
             <a 
-              href="https://muqadasurooj.netlify.app"
+              href="https://khalique.vercel.app/"
               target="_blank" 
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white transition-all duration-300 hover:scale-110"
