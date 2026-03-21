@@ -14,9 +14,9 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 w-full bg-black/95 backdrop-blur-sm z-50 border-b border-cyan-500/30">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
+        <div className="flex justify-between items-center h-16 gap-3">
           <div className="flex-shrink-0">
-            <h1 className="text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500 font-mono">
+            <h1 className="text-lg sm:text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500 font-mono">
               &lt;KA/&gt;
             </h1>
           </div>
@@ -60,7 +60,7 @@ const Navbar = () => {
       {isMenuOpen && (
         <div className="md:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-black/95 border-t border-cyan-500/30">
-            {['about', 'experience', 'skills', 'projects', 'contact'].map((item) => (
+            {['about', 'skills', 'projects', 'contact'].map((item) => (
               <button
                 key={item}
                 onClick={() => scrollToSection(item)}

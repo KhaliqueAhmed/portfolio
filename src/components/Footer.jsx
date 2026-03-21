@@ -9,8 +9,8 @@ const Footer = () => {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="flex flex-col md:flex-row justify-between items-center">
-          <div className="text-center md:text-left mb-4 md:mb-0">
-            <p className="text-gray-400 font-mono">
+          <div className="text-center md:text-left mb-4 md:mb-0 px-2">
+            <p className="text-gray-400 font-mono text-sm sm:text-base">
               © 2026 <span className="text-cyan-400 font-semibold">Khalique Ahmed</span>. All rights reserved.
             </p>
             <p className="text-gray-500 text-sm mt-1 font-mono">
@@ -18,7 +18,7 @@ const Footer = () => {
             </p>
           </div>
           
-          <div className="flex space-x-6">
+          <div className="flex flex-wrap justify-center gap-5 sm:gap-6">
             <a 
               href="https://github.com/khaliqueahmed" 
               target="_blank" 

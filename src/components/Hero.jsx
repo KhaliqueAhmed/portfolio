@@ -51,44 +51,44 @@ const Hero = () => {
       </div>
 
       {/* Main Content */}
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center pb-16 sm:pb-20">
         {/* Developer Badge */}
-        <div className="inline-flex items-center gap-2 bg-gradient-to-r from-cyan-500/20 to-blue-500/20 border border-cyan-400/30 rounded-full px-4 py-2 mb-8 backdrop-blur-sm">
+        <div className="inline-flex items-center gap-2 bg-gradient-to-r from-cyan-500/20 to-blue-500/20 border border-cyan-400/30 rounded-full px-3 sm:px-4 py-2 mb-6 sm:mb-8 backdrop-blur-sm">
           <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
-          <span className="text-cyan-400 text-sm font-mono">Available for opportunities</span>
+          <span className="text-cyan-400 text-xs sm:text-sm font-mono">Available for opportunities</span>
         </div>
 
         <div className="mb-8">
-          <h1 className="text-4xl md:text-7xl font-bold text-white mb-6 font-mono">
+          <h1 className="text-3xl sm:text-4xl md:text-7xl font-bold text-white mb-5 sm:mb-6 font-mono break-words">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600">
               &lt;Khalique Ahmed/&gt;
             </span>
           </h1>
           
-          <div className="h-20 md:h-24 flex items-center justify-center mb-4">
-            <h2 className="text-2xl md:text-4xl font-semibold text-gray-300 font-mono">
+          <div className="min-h-[4rem] sm:min-h-[5rem] md:h-24 flex items-center justify-center mb-3 sm:mb-4 px-1">
+            <h2 className="text-lg sm:text-2xl md:text-4xl font-semibold text-gray-300 font-mono leading-snug break-words">
               <span className="text-cyan-400">const</span> role =
               <span className="text-yellow-400">&apos;{texts[currentText]}&apos;</span>
             </h2>
           </div>
         </div>
         
-        <p className="text-lg md:text-xl text-gray-300 mb-8 max-w-3xl mx-auto font-mono leading-relaxed">
+        <p className="text-base sm:text-lg md:text-xl text-gray-300 mb-8 max-w-3xl mx-auto font-mono leading-relaxed px-1">
           <span className="text-cyan-400">  Passionate about creating innovative solutions and building scalable applications</span>
           <br />
           <span className="text-cyan-400"> Young and passionate about technology and innovation</span>
         </p>
-        <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
+        <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center mb-10 sm:mb-12">
           <a
             href="#contact"
-            className="group relative bg-gradient-to-r from-cyan-500 to-blue-600 text-white px-8 py-4 rounded-lg font-bold transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-cyan-500/25"
+            className="group relative bg-gradient-to-r from-cyan-500 to-blue-600 text-white px-6 sm:px-8 py-3.5 sm:py-4 rounded-lg font-bold transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-cyan-500/25"
           >
             <span className="relative z-10">Get In Touch</span>
             <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-cyan-500 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
           </a>
           <a
             href="#projects"
-            className="group border-2 border-cyan-400 text-cyan-400 hover:text-white px-8 py-4 rounded-lg font-bold transition-all duration-300 hover:bg-cyan-400 hover:scale-105 relative overflow-hidden"
+            className="group border-2 border-cyan-400 text-cyan-400 hover:text-white px-6 sm:px-8 py-3.5 sm:py-4 rounded-lg font-bold transition-all duration-300 hover:bg-cyan-400 hover:scale-105 relative overflow-hidden"
           >
             <span className="relative z-10">View Projects</span>
             <div className="absolute inset-0 bg-cyan-400 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
@@ -118,7 +118,7 @@ const Hero = () => {
         </div>
 
         {/* Scroll Indicator */}
-        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+        <div className="absolute bottom-4 sm:bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
           <div className="w-6 h-10 border-2 border-cyan-400/50 rounded-full flex justify-center">
             <div className="w-1 h-3 bg-cyan-400 rounded-full mt-2 animate-pulse"></div>
           </div>

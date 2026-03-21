@@ -44,7 +44,7 @@ const About = () => {
               <h4 className="text-xl font-semibold text-white mb-2 font-mono">Bachelor of Computer Systems Engineering</h4>
               <p className="text-gray-300 mb-2 font-mono">Mehran University of Engineering & Technology</p>
               <p className="text-gray-400 mb-3 font-mono">2021 – 2025</p>
-              <div className="flex items-center space-x-4 text-sm">
+              <div className="flex flex-wrap items-center gap-3 text-sm">
                 <span className="bg-green-600/80 text-white px-3 py-1 rounded-full font-mono">CGPA: 3.00/4.00</span>
                 <span className="bg-cyan-600/80 text-white px-3 py-1 rounded-full font-mono">Merit Scholarship</span>
               </div>
@@ -76,13 +76,13 @@ const About = () => {
     <span className="text-cyan-400">function</span> WhoIAm()
   </h3>
 
-  <p className="text-gray-300 text-lg leading-relaxed mb-6 font-mono">
+  <p className="text-gray-300 text-base sm:text-lg leading-relaxed mb-6 font-mono">
     <span className="text-cyan-400">{/* */}</span> I&apos;m a Computer Engineer with a strong interest in web development, 
     specializing in building modern and responsive applications using technologies like React and JavaScript. 
     I enjoy turning ideas into real-world projects and continuously improving my development skills.
   </p>
 
-  <p className="text-gray-300 text-lg leading-relaxed mb-6 font-mono">
+  <p className="text-gray-300 text-base sm:text-lg leading-relaxed mb-6 font-mono">
     <span className="text-cyan-400">{/* */}</span> I have a strong analytical mindset and a passion for problem-solving. 
     I&apos;m always eager to learn new technologies and build efficient, user-friendly solutions that create real value.
   </p>
